@@ -17,7 +17,7 @@ const Donate = () => {
 
     try {
       const response = await axios.post(
-        "uiuxproject-backend.vercel.app/api/v1/checkout",
+        "https://uiuxproject-backend.vercel.app/api/v1/checkout",
         { name, email, message, amount },
         {
           withCredentials: true,
