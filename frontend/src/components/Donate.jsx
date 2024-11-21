@@ -18,11 +18,12 @@ const Donate = () => {
     try {
       const response = await axios.post(
         "https://uiuxproject-backend.vercel.app/api/v1/checkout",
-        { name, email, message, amount },
-        {
-          withCredentials: true,
-          headers: { "Content-Type": "application/json" },
-        }
+        { name, email, message, amount }
+        ,
+        // {
+        //   // withCredentials: true,
+        //   headers: { "Content-Type": "application/json" },
+        // }
       );
 
       const data = response.data;
