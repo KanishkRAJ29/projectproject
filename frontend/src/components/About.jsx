@@ -4,7 +4,10 @@ const About=()=>{
     <div className="hero">
       <div className="banner">
         <h1>OUR STORY</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus nemo, et error nisi magnam dolor? Rem voluptates totam nisi. Cupiditate nihil aspernatur incidunt impedit quis labore qui eum veritatis consequatur consequuntur beatae tenetur accusantium maiores exercitationem illo ab, cumque optio mollitia culpa dignissimos, vel debitis. Aliquid veniam ex corrupti veritatis debitis eum sequi impedit, minus dicta fuga obcaecati non optio voluptatibus, esse totam, molestiae ipsam quae ad.</p>
+        <p>Our journey began with a simple idea: to create meaningful change in the lives of those who need it most. Inspired by a shared belief in compassion and community, we came together with a mission to uplift, empower, and transform lives.</p>
+        <p>From humble beginnings, we have grown into a passionate movement of individuals dedicated to addressing social challenges, fostering hope, and building brighter futures. Each step of our journey has been guided by a commitment to integrity, inclusivity, and impact.</p>
+        <p>Today, we are proud to stand as a beacon of support for communities worldwide. Our story is one of perseverance, collaboration, and the unwavering belief that together, we can make a difference.</p>
+        <p>Join us as we continue to write the next chapter—one filled with hope, opportunity, and lasting change.</p>
       </div>
       <div className="banner">
         <img src="/about.png" alt="about" />

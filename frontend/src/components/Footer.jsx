@@ -9,32 +9,36 @@ import {
 
 const Footer = () => {
   return (
-    <footer>
+    <footer style={{ padding: "2rem", backgroundColor: "black" }}>
       <div>
-        <img src="/logo.png" alt="logo" />
+        <img src="/logo.png" alt="Company Logo" style={{ maxWidth: "150px" }} />
       </div>
       <div>
         <h4>Support</h4>
         <ul>
           <li>New York, USA</li>
-          <li>crypto@gmail.com</li>
-          <li>+92 123123123</li>
+          <li>
+            <a href="mailto:crypto@gmail.com">crypto@gmail.com</a>
+          </li>
+          <li>
+            <a href="tel:+91 1231231230">+91 1231231230</a>
+          </li>
         </ul>
       </div>
       <div>
         <h4>Quick Links</h4>
         <ul>
           <li>
-            <Link to={"/"}>Home</Link>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to={"/donate"}>Donate</Link>
+            <Link to="/donate">Donate</Link>
           </li>
           <li>
-            <Link to={"/about"}>About</Link>
+            <Link to="/about">About</Link>
           </li>
           <li>
-            <Link to={"/contact"}>Contact</Link>
+            <Link to="/contact">Contact</Link>
           </li>
         </ul>
       </div>
@@ -42,40 +46,44 @@ const Footer = () => {
         <h4>Follow Us</h4>
         <ul>
           <li>
-            <Link to={"/"}>
-              {" "}
-              <span>
-                <FaSquareTwitter />
-              </span>{" "}
-              <span>Twitter (X)</span>{" "}
-            </Link>
+            <a
+              href="https://www.twitter.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Twitter (X)"
+            >
+              <FaSquareTwitter /> Twitter (X)
+            </a>
           </li>
           <li>
-            <Link to={"/"}>
-              {" "}
-              <span>
-                <FaYoutube />
-              </span>{" "}
-              <span>Youtube</span>{" "}
-            </Link>
+            <a
+              href="https://www.youtube.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="YouTube"
+            >
+              <FaYoutube /> YouTube
+            </a>
           </li>
           <li>
-            <Link to={"/"}>
-              {" "}
-              <span>
-                <FaSquareInstagram />
-              </span>{" "}
-              <span>Instagram</span>{" "}
-            </Link>
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram"
+            >
+              <FaSquareInstagram /> Instagram
+            </a>
           </li>
           <li>
-            <Link to={"/"}>
-              {" "}
-              <span>
-                <FaLinkedin />
-              </span>{" "}
-              <span>Linkedin</span>{" "}
-            </Link>
+            <a
+              href="https://www.linkedin.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn"
+            >
+              <FaLinkedin /> LinkedIn
+            </a>
           </li>
         </ul>
       </div>

@@ -44,7 +44,9 @@ const Members=()=>{
     <div className="container">
       <div className="heading_section">
         <h2 className="heading">Members</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam voluptates fugit tenetur nihil nisi sed ut totam repellendus numquam nesciunt?</p>
+        <p>Our members are the heart of our organization. From dedicated volunteers to passionate supporters, we are united by a shared vision of kindness and service.
+
+By becoming a member, you join a network of individuals committed to making the world a better place—one step, one smile, one life at a time.</p>
       </div>
       <div className="members_container">
         {
