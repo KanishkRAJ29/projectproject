@@ -15,10 +15,10 @@ const Contact = () => {
       .post(
         "https://uiuxproject-backend.vercel.app/api/v1/message/send",
         { name, email, phone, message }
-        ,{
-          withCredentials: true,
-          headers: { "Content-Type": "application/json" },
-        }
+        // ,{
+        //   withCredentials: true,
+        //   headers: { "Content-Type": "application/json" },
+        // }
       )
       .then((res) => {
         setName("");
